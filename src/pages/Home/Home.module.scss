@@ -1,0 +1,31 @@
+main {
+	margin: 0 24px;
+}
+
+.main_section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2rem;
+
+	&__image {
+		width: 88%;
+		height: 288px;
+		background-image: url('./chapada_veadeiros.jpg');
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		border-radius: 10px;
+
+		h1 {
+			position: absolute;
+			z-index: 1;
+			color: #a16032;
+			font-size: 2.5rem;
+			width: 401px;
+			height: 144px;
+			top: 15px;
+			left: 44px;
+		}
+	}
+}
