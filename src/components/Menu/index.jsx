@@ -1,9 +1,9 @@
 import home from './home.svg';
 import styles from './Menu.module.scss';
-import mostLiked from './most-liked.svg';
-import mostViewed from './most-viewed.svg';
+import mostLiked from './most_liked.svg';
+import mostViewed from './most_viewed.svg';
 import news from './news.svg';
-import surpiseMe from './surprise-me.svg';
+import surpiseMe from './surprise_me.svg';
 
 const Menu = () => {
 	return (
