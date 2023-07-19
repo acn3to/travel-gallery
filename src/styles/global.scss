@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 @import-normalize;
-
-* {
-	font-family: 'Rubik', sans-serif;
-}
 
 body {
 	margin: 0;
@@ -26,7 +21,20 @@ body::-webkit-scrollbar-thumb {
 	border-radius: 20px;
 }
 
-/* Cor adicional */
 h1 {
 	color: #321c0f;
+}
+
+@font-face {
+	font-family: 'GandiSansRegular';
+	src: local('GandiSansRegular'), url('../assets/GandhiSans-Regular.otf') format('truetype');
+	font-weight: 500;
+	display: swap;
+}
+
+@font-face {
+	font-family: 'GandiSansBold';
+	src: local('GandiSansBold'), url('../assets/GandhiSans-Bold.otf') format('truetype');
+	font-weight: 700;
+	display: swap;
 }
