@@ -1,10 +1,11 @@
 @import-normalize;
+@import './variables.scss';
 
 body {
 	margin: 0;
 	padding: 0;
 	min-height: 100vh;
-	background-image: linear-gradient(#aeb5be, #a16032);
+	background-image: linear-gradient($color-bombay, $color-paarl);
 	box-sizing: border-box;
 }
 
@@ -13,28 +14,28 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-	background: linear-gradient(#aeb5be, #a16032);
+	background: linear-gradient($color-bombay, $color-paarl);
 }
 
 body::-webkit-scrollbar-thumb {
-	background-color: #67381c;
+	background-color: $color-metallic-copper;
 	border-radius: 20px;
 }
 
 h1 {
-	color: #321c0f;
+	color: $color-sambuca;
 }
 
 @font-face {
 	font-family: 'GandiSansRegular';
 	src: local('GandiSansRegular'), url('../assets/GandhiSans-Regular.otf') format('truetype');
 	font-weight: 500;
-	display: swap;
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'GandiSansBold';
 	src: local('GandiSansBold'), url('../assets/GandhiSans-Bold.otf') format('truetype');
 	font-weight: 700;
-	display: swap;
+	font-display: swap;
 }

@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .menu {
 	width: 18%;
 
@@ -19,7 +21,7 @@
 		&:first-child {
 			a {
 				font-weight: 700;
-				color: #a16032;
+				color: $color-paarl;
 			}
 		}
 	}
@@ -34,7 +36,7 @@
 	a {
 		text-decoration: none;
 		font-size: 1.125rem;
-		color: #67381c;
-		font-family: 'GandiSansRegular', sans-serif;
+		color: $color-metallic-copper;
+		font-family: $font-normal;
 	}
 }
